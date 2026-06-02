@@ -32,12 +32,12 @@ export default function Hero() {
           Tutorial: Quantum Computing for Ubiquitous and Pervasive
           Computing Systems
         </p>
-
+{/* October 11-12, 2026. */}
         <div className="flex items-center justify-center gap-8 flex-wrap mb-12">
           {[
-            { icon: '📅', label: 'October 5–9, 2026' },
+            { icon: '📅', label: 'October 11-12, 2026' },
             { icon: '📍', label: 'Shanghai, China'   },
-            { icon: '⏱',  label: 'Half-day tutorial' },
+            { icon: '⏱',  label: 'Half-Day Session (approx. 3-4 hours)' },
           ].map(item => (
             <div key={item.label} className="flex items-center gap-2 font-mono text-[12px] text-muted">
               <span>{item.icon}</span>{item.label}

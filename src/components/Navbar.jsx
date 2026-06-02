@@ -6,7 +6,6 @@ const navLinks = [
   { href: '#topics',     label: 'Topics'      },
   { href: '#speakers',   label: 'Speakers'    },
   { href: '#schedule',   label: 'Schedule'    },
-  { href: '#dates',      label: 'Dates'       },
   { href: '#organizers', label: 'Organizers'  },
   { href: '#cfp',        label: 'Participate' },
   { href: '#venue',      label: 'Venue'       },
@@ -41,7 +40,7 @@ export default function Navbar() {
         </div>
 
         <span className="hidden md:inline-block font-mono text-[10px] bg-[#00d4ff]/10 border border-[#00d4ff]/30 text-[#00d4ff] px-3 py-1 rounded-full">
-          Shanghai · Oct 2026
+          Shanghai · Oct 11-12 2026
         </span>
 
         {/* Mobile burger */}
@@ -64,7 +63,7 @@ export default function Navbar() {
             ))}
           </div>
           <span className="inline-block mt-4 font-mono text-[10px] bg-[#00d4ff]/10 border border-[#00d4ff]/30 text-[#00d4ff] px-3 py-1 rounded-full">
-            Shanghai · Oct 2026
+            Shanghai · Oct  11-12 2026
           </span>
         </div>
       )}

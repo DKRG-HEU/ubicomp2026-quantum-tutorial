@@ -9,7 +9,7 @@ export default function Footer() {
         <p className="font-mono text-[13px] text-[#00d4ff] mb-4">QPC://UbiComp26</p>
         <p className="font-mono text-[11px] text-dimmed leading-[1.9]">
           Quantum &amp; Pervasive Computing Tutorial · UbiComp 2026<br />
-          October 5–9, 2026 · Shanghai, China
+          October 11-12, 2026 · Shanghai, China
         </p>
         <div className="flex gap-6 justify-center flex-wrap mt-5">
           {links.map(link => (

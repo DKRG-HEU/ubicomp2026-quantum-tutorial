@@ -4,7 +4,7 @@ import Overview             from '@/components/Overview';
 import Topics               from '@/components/Topics';
 import Speakers             from '@/components/Speakers';
 import Schedule             from '@/components/Schedule';
-import ImportantDates       from '@/components/ImportantDates';
+// import ImportantDates       from '@/components/ImportantDates';
 import Organizers           from '@/components/Organizers';
 import CallForParticipation from '@/components/CallForParticipation';
 import Venue                from '@/components/Venue';
@@ -30,9 +30,9 @@ export default function HomePage() {
         <Divider />
         <Schedule />
         <Divider />
-        <div className="bg-[#061428]/60 border-y border-[#00d4ff]/5">
+        {/* <div className="bg-[#061428]/60 border-y border-[#00d4ff]/5">
           <ImportantDates />
-        </div>
+        </div> */}
         <Divider />
         <Organizers />
         <Divider />

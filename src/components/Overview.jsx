@@ -1,7 +1,7 @@
 const stats = [
   { num: '4h', label: 'Duration' },
   { num: '6', label: 'Topic Modules' },
-  { num: '5', label: 'Invited Speakers' },
+  { num: '3', label: 'Invited Speakers' },
   { num: '∞', label: 'Curiosity Required' },
 ];
 
