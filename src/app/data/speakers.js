@@ -34,6 +34,10 @@
 //     image: '/speakers/rahul.jpg'
 //   },
 // ];
+const BASE_PATH =
+  process.env.NODE_ENV === 'production'
+    ? '/ubicomp2026-quantum-tutorial'
+    : '';
 
 export const speakers = [
   {
@@ -55,7 +59,7 @@ export const speakers = [
       'Localization'
     ],
     email: 'moustafa.youssef@aucegypt.edu',
-    image: '/speakers/moustafa.jpg'
+    image: `${BASE_PATH}/speakers/moustafa.jpg`
   },
 
   {
@@ -79,7 +83,7 @@ export const speakers = [
     'Data Analytics'
   ],
   email: 'wei.li@hrbeu.edu.cn',
-  image: '/speakers/weili.jpg'
+  image: `${BASE_PATH}/speakers/weili.jpg`
 },
 
   {
@@ -100,6 +104,6 @@ export const speakers = [
       'Resource Optimization'
     ],
     email: 'rahul@hrbeu.edu.cn',
-    image: '/speakers/rahul.jpg'
+    image: `${BASE_PATH}/speakers/rahul.jpg`
   }
 ];
