@@ -43,7 +43,7 @@ export const speakers = [
   {
     initials: 'MY',
     name: 'Prof. Moustafa Youssef',
-    role: 'Lead Organizer',
+    // role: 'Lead Organizer',
     affiliation: 'Professor, American University in Cairo, Egypt',
     distinctions:
       'ACM Fellow, IEEE Fellow, AAS Fellow, AAAS Fellow',
@@ -65,7 +65,7 @@ export const speakers = [
   {
   initials: 'WL',
   name: 'Prof. Wei Li',
-  role: 'Organizer',
+  // role: 'Organizer',
   affiliation: 'Professor, Harbin Engineering University, Harbin, China',
   distinctions: [
     'IEEE/ACM Member',
@@ -89,7 +89,7 @@ export const speakers = [
   {
     initials: 'RY',
     name: 'Prof. Rahul Yadav',
-    role: 'Organizer',
+    // role: 'Organizer',
     affiliation: 'Associate Professor, Harbin Engineering University, China',
     distinctions: 'Senior Member IEEE, CCF Member',
     bio: 'Works on mobile and edge computing, system resource optimization, and quantum cloud computing.',

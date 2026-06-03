@@ -1,7 +1,7 @@
 const stats = [
   { num: '4h', label: 'Duration' },
   { num: '6', label: 'Topic Modules' },
-  { num: '3', label: 'Invited Speakers' },
+  { num: '3', label: 'Speakers' },
   { num: '∞', label: 'Curiosity Required' },
 ];
 
@@ -53,19 +53,18 @@ Simulators and possibly quantum cloud platforms (to be confirmed).
 The tutorial will end with a discussion of open research problems
 and challenges for real-world problems in the pervasive computing
 domain.
-
             </p>
           </div>
 
           {/* CCS CONCEPTS */}
-          <p className="font-mono text-[10px] text-[#00d4ff] tracking-[0.2em] uppercase mb-3">
+          {/* <p className="font-mono text-[10px] text-[#00d4ff] tracking-[0.2em] uppercase mb-3">
             CCS Concepts
           </p>
 
           <div className="space-y-2 text-muted text-[13px] leading-[1.7] mb-8">
              <p>•  Computer systems organization → Quantum computing</p>
               <p>• Human-centered computing → Ubiquitous and pervasive</p>
-          </div>
+          </div> */}
 
           {/* KEYWORDS */}
           <p className="font-mono text-[10px] text-[#00d4ff] tracking-[0.2em] uppercase mb-3">

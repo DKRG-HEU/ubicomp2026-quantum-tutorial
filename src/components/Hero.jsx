@@ -20,12 +20,11 @@ export default function Hero() {
           <span className="font-mono text-[11px] text-[#00d4ff] tracking-[0.2em] uppercase">UbiComp 2026 Tutorial</span>
           <span className="w-10 h-px bg-[#00d4ff]/50" />
         </div>
-
+{/* Quantum Computing for Ubiquitous and Pervasive Computing Systems */}
         <h1 className="font-head font-extrabold text-[clamp(2.2rem,5vw,4.2rem)] leading-[1.1] tracking-tight mb-6">
-          <span className="text-[#00d4ff]">Quantum Computing</span>
+          <span className="text-[#00d4ff]">Quantum Computing for</span>
           <span className="text-[#4d8eff] mx-2">&amp;</span>
-           Ubiquitous <br />Pervasive
-          Computing Systems
+           Ubiquitous and Pervasive <br /> Computing Systems 
         </h1>
 
         <p className="text-muted text-[1.05rem] max-w-[580px] mx-auto leading-[1.8] mb-10">
