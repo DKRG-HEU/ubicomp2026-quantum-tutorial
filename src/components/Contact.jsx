@@ -1,8 +1,8 @@
 const contacts = [
-  { label: 'General Inquiries', value: 'tutorial@ubicomp2026.org',         href: 'mailto:tutorial@ubicomp2026.org'           },
-  { label: 'Organizing Chair',  value: 'lin.chen@tsinghua.edu.cn',         href: 'mailto:lin.chen@tsinghua.edu.cn'           },
-  { label: 'Conference Website',value: 'ubicomp.org/ubicomp2026',          href: 'https://ubicomp.org/ubicomp2026/',  external: true },
-  { label: 'Follow Updates',    value: '@ubicomp2026',                      href: 'https://twitter.com/ubicomp2026',   external: true },
+  { label: 'GENERAL CHAIRS', value: 'tutorial@ubicomp2026.org',         href: 'mailto:generalchairs-2026@ubicomp.org'           },
+  { label: 'WORKSHOP CHAIRS',  value: 'lin.chen@tsinghua.edu.cn',         href: 'mailto:workshop-2026@ubicomp.org'           },
+  { label: 'Conference Website',value: 'ubicomp.org/ubicomp2026',          href: 'https://www.ubicomp.org/ubicomp-iswc-2026/',  external: true },
+  { label: 'REGISTRATION CHAIRS',    value: '@ubicomp2026',                      href: 'mailto:registration-2026@ubicomp.org'},
 ];
 
 export default function Contact() {
