@@ -20,10 +20,18 @@ export default function Contact() {
               </svg>
             </div>
             <p className="font-mono text-[11px] text-muted">{item.label}</p>
-            <a href={item.href} target={item.external ? '_blank' : undefined} rel={item.external ? 'noopener noreferrer' : undefined}
+            {/* <a href={item.href} target={item.external ? '_blank' : undefined} rel={item.external ? 'noopener noreferrer' : undefined}
               className="text-[13px] text-[#88b8ff] hover:text-[#00d4ff] transition-colors break-all">
               {item.value}
-            </a>
+            </a> */}
+          <a
+        href={item.href}
+        target={item.external ? '_blank' : undefined}
+        rel={item.external ? 'noopener noreferrer' : undefined}
+        className="text-[13px] text-[#88b8ff] hover:text-[#00d4ff] hover:underline transition-colors break-all cursor-pointer"
+      >
+        {item.value}
+      </a>
           </div>
         ))}
       </div>
