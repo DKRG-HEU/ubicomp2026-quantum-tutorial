@@ -93,15 +93,15 @@ export const speakers = [
     affiliation: 'Associate Professor, Harbin Engineering University, China',
     distinctions: 'Senior Member IEEE, CCF Member',
     bio: 'Works on mobile and edge computing, system resource optimization, and quantum cloud computing.',
-    quantum:
-      'Developing a Python-based Quantum Cloud Computing Simulator.',
+    quantum:'Developing a Python-based Quantum Cloud Computing Simulator.',
     awards:
       'Best Paper Award for edge computing research.',
+      // Quantum Cloud ComputingIntelligent Edge ComputingIoTVehicular ComputingDigital Twins
     tags: [
-      'Quantum Cloud',
-      'Edge Computing',
-      'IoT',
-      'Resource Optimization'
+      'Quantum Cloud Computing',
+      'Intelligent Edge Computing',
+      'IoT ',
+      'Vehicular Computing'
     ],
     email: 'rahul@hrbeu.edu.cn',
     image: `${BASE_PATH}/speakers/rahul.jpg`

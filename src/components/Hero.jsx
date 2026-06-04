@@ -23,14 +23,14 @@ export default function Hero() {
 {/* Quantum Computing for Ubiquitous and Pervasive Computing Systems */}
         <h1 className="font-head font-extrabold text-[clamp(2.2rem,5vw,4.2rem)] leading-[1.1] tracking-tight mb-6">
           <span className="text-[#00d4ff]">Quantum Computing for</span>
-          <span className="text-[#4d8eff] mx-2">&amp;</span>
+          {/* <span className="text-[#4d8eff] mx-2">&amp;</span> */}
            Ubiquitous and Pervasive <br /> Computing Systems 
         </h1>
 
-        <p className="text-muted text-[1.05rem] max-w-[580px] mx-auto leading-[1.8] mb-10">
+        {/* <p className="text-muted text-[1.05rem] max-w-[580px] mx-auto leading-[1.8] mb-10">
           Tutorial: Quantum Computing for Ubiquitous and Pervasive
           Computing Systems
-        </p>
+        </p> */}
 {/* October 11-12, 2026. */}
         <div className="flex items-center justify-center gap-8 flex-wrap mb-12">
           {[
