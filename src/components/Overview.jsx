@@ -26,33 +26,36 @@ export default function Overview() {
 
           <div className="space-y-4 text-muted text-[14px] leading-[1.85] mb-8">
             <p>
-              Quantum computing is an emerging field at the intersection of computer science, quantum mechanics, and mathematics; offering a
+              Quantum computing is an emerging field at the intersection of com
+puter science, quantum mechanics, and mathematics; offering a
 novel approach to problem-solving that enables efficient solutions
 for problems intractable on classical computers. As researchers
-demonstrate quantum supremacy and cloud-based quantum hardware becomes increasingly accessible, the field is transitioning
+demonstrate quantum supremacy and cloud-based quantum hard
+ware becomes increasingly accessible, the field is transitioning
 from theoretical research to practical reality. This tutorial aims to
 introduce the UbiComp and ISWC community to the most general
 gate-based (circuit model) quantum computing and its potential
-applications within ubiquitous and pervasive computing systems
+applications within ubiquitous and pervasive computing systems.
             </p>
 
             <p>
-              on, starting with quantum computing principles—such as qubits,
+              The tutorial is structured to provide a comprehensive founda
+tion, starting with quantum computing principles—such as qubits,
 gates, and circuits—and progressing to the mapping of pervasive
 computing problems (e.g., localization) into quantum models. We
 will discuss current challenges, including Noisy Intermediate-Scale
 Quantum (NISQ) era systems, and explore future opportunities for
-research. By bridging the gap between quantum algorithms and pervasive systems, this tutorial seeks to foster a new sub-community
+research. By bridging the gap between quantum algorithms and per
+vasive systems, this tutorial seeks to foster a new sub-community
 dedicated to exploring quantum-driven innovations in ubiquitous
-computing
+computing.
             </p>
 
             <p>
               The tutorial will also include hands-on experience on Quantum
-Simulators and possibly quantum cloud platforms (to be confirmed).
-The tutorial will end with a discussion of open research problems
-and challenges for real-world problems in the pervasive computing
-domain.
+Simulators and quantum cloud platforms. The tutorial will end
+with a discussion of open research problems and challenges for
+real-world problems in the pervasive computing domain.
             </p>
           </div>
 

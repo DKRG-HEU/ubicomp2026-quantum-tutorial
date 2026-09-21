@@ -4,7 +4,7 @@ export default function Topics() {
   return (
     <section id="topics" className="max-w-[1100px] mx-auto px-6 py-24">
       <p className="font-mono text-[11px] text-[#00d4ff] tracking-[0.18em] uppercase mb-3">// tutorial topics</p>
-      <h2 className="font-head font-bold text-[clamp(1.8rem,3vw,2.8rem)] leading-[1.2] mb-10">What You'll Explore</h2>
+      <h2 className="font-head font-bold text-[clamp(1.8rem,3vw,2.8rem)] leading-[1.2] mb-10">Objectives and Learning Outcomes</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {topics.map(topic => (
           <div key={topic.num}

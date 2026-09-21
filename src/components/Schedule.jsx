@@ -10,8 +10,8 @@ const typeColors = {
 export default function Schedule() {
   return (
     <section id="schedule" className="max-w-[1100px] mx-auto px-6 py-24">
-      <p className="font-mono text-[11px] text-[#00d4ff] tracking-[0.18em] uppercase mb-3">// schedule</p>
-      <h2 className="font-head font-bold text-[clamp(1.8rem,3vw,2.8rem)] leading-[1.2] mb-12">Tutorial Program</h2>
+      <p className="font-mono text-[11px] text-[#00d4ff] tracking-[0.18em] uppercase mb-3">// Detailed Tutorial Plan</p>
+      <h2 className="font-head font-bold text-[clamp(1.8rem,3vw,2.8rem)] leading-[1.2] mb-12">Content and Schedule</h2>
       <div className="relative">
         {/* Track line */}
         <div className="absolute left-[100px] top-0 bottom-0 w-px bg-[#00d4ff]/15 hidden sm:block" />

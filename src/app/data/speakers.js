@@ -43,65 +43,75 @@ export const speakers = [
   {
     initials: 'MY',
     name: 'Prof. Moustafa Youssef',
-    // role: 'Lead Organizer',
-    affiliation: 'Professor, American University in Cairo, Egypt',
-    distinctions:
-      'ACM Fellow, IEEE Fellow, AAS Fellow, AAAS Fellow',
-    bio: 'Expert in mobile and pervasive computing, location determination systems, mobile/wireless networks, and quantum computing.',
+    role: 'Lead Organizer',
+    affiliation: 'Professor, American University in Cairo, New Cairo, Egypt',
+    distinctions: [
+      'ACM Fellow',
+      'IEEE Fellow',
+      'AAAS Fellow',
+      'AAS Fellow'
+    ],
+    bio:
+      'Professor at the American University in Cairo. His expertise includes mobile and pervasive computing, location determination systems, mobile and wireless networks, and quantum computing.',
     quantum:
-      'Led tutorials and workshops on quantum computing for spatial systems and indoor positioning at IPIN 2024 and ACM SIGSPATIAL 2025. Delivered keynotes and invited talks on quantum computing for location tracking systems.',
+      'Recently led tutorials and workshops on quantum computing for spatial systems and indoor positioning at IPIN 2024 and ACM SIGSPATIAL 2025. He has also delivered numerous keynotes and invited talks on leveraging quantum computing for location tracking systems.',
     awards:
-      'University of Maryland Invention of the Year Award, TWAS-AAS-Microsoft Award, Egyptian State Award for Excellence, multiple Google Research Awards, and Best Paper awards.',
+      'University of Maryland Invention of the Year Award, TWAS-AAS-Microsoft Award, multiple Google Research Awards, Egyptian State Excellence Award, and numerous Best Paper and Runner-Up awards for his quantum computing work.',
     tags: [
       'Quantum Computing',
       'Pervasive Computing',
       'Wireless Networks',
-      'Localization'
+      'Location Determination'
     ],
     email: 'moustafa.youssef@aucegypt.edu',
     image: `${BASE_PATH}/speakers/moustafa.jpg`
   },
 
   {
-  initials: 'WL',
-  name: 'Prof. Wei Li',
-  // role: 'Organizer',
-  affiliation: 'Professor, Harbin Engineering University, Harbin, China',
-  distinctions: [
-    'IEEE/ACM Member',
-    'CCF Senior Member',
-    'Deputy Director, Heilongjiang Provincial Laboratory of New Generation Network Technologies and Information Security'
-  ],
-  bio: 'Professor at Harbin Engineering University with research expertise in database systems, graph data management and mining, spatiotemporal data analysis, and location-based services. His work focuses on intelligent data systems and next-generation computing applications.',
-  quantum: 'Received his Ph.D. from the University of New South Wales (UNSW) in 2019 and served as a Research Fellow at UNSW before joining Harbin Engineering University. He has published over 60 research papers and actively serves the research community through editorial and conference leadership roles.',
-  awards: 'Associate Editor of JIHMSP and Guest Editor for Applied Sciences. Program Committee member for AAAI, ICASSP, and DASFAA, and reviewer for leading venues including TKDE, TKDD, ICDE, VLDB, and ACM Multimedia.',
-  tags: [
-    'Database Systems',
-    'Graph Mining',
-    'Spatiotemporal Data',
-    'Location-based Services',
-    'Data Analytics'
-  ],
-  email: 'wei.li@hrbeu.edu.cn',
-  image: `${BASE_PATH}/speakers/weili.jpg`
-},
+    initials: 'WL',
+    name: 'Prof. Wei Li',
+    role: 'Organizer',
+    affiliation:
+      'Professor, College of Computer Science and Technology, Harbin Engineering University, Harbin, China',
+    distinctions: [
+      'CCF Senior Member',
+      'National-level Young Talent in China'
+    ],
+    bio:
+      'Professor at Harbin Engineering University, China. His expertise includes spatial-temporal data mining and quantum computing.',
+    quantum:
+      'Developed QCloudSimpy, a Python-based quantum cloud simulator leveraging reinforcement learning.',
+    awards:
+      'Second Prize for Technical Invention of Heilongjiang Province, First Prize for Science and Technology Progress of State Grid, and Best Paper Award at CCF Conference, among others.',
+    tags: [
+      'Quantum Computing',
+      'Spatial-Temporal Data Mining',
+      'Quantum Cloud Computing',
+      'Reinforcement Learning'
+    ],
+    email: 'wei.li@hrbeu.edu.cn',
+    image: `${BASE_PATH}/speakers/weili.jpg`
+  },
 
   {
     initials: 'RY',
     name: 'Prof. Rahul Yadav',
-    // role: 'Organizer',
-    affiliation: 'Associate Professor, Harbin Engineering University, China',
-    distinctions: 'Senior Member IEEE, CCF Member',
-    bio: 'Works on mobile and edge computing, system resource optimization, and quantum cloud computing.',
-    quantum:'Developing a Python-based Quantum Cloud Computing Simulator.',
+    role: 'Organizer',
+    affiliation:
+      'Associate Professor, College of Computer Science and Technology, Harbin Engineering University, Harbin, China',
+    distinctions: [
+      'Senior Member of IEEE'
+    ],
+    bio:
+      'Associate Professor at Harbin Engineering University, China. His expertise includes mobile and edge computing and quantum cloud computing.',
+    quantum:
+      'Co-developed QCloudSimpy, a Python-based quantum cloud simulator.',
     awards:
-      'Best Paper Award for edge computing research.',
-      // Quantum Cloud ComputingIntelligent Edge ComputingIoTVehicular ComputingDigital Twins
+      'Research contributions in mobile and edge computing and quantum cloud computing.',
     tags: [
       'Quantum Cloud Computing',
-      'Intelligent Edge Computing',
-      'IoT ',
-      'Vehicular Computing'
+      'Mobile Computing',
+      'Edge Computing'
     ],
     email: 'rahul@hrbeu.edu.cn',
     image: `${BASE_PATH}/speakers/rahul.jpg`
