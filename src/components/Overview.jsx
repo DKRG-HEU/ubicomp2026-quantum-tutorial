@@ -1,6 +1,6 @@
 const stats = [
-  { num: '4h', label: 'Duration' },
-  { num: '6', label: 'Topic Modules' },
+  { num: '4 hours 15 minutes', label: 'Duration' },
+  { num: '5', label: 'Topic Modules' },
   { num: '3', label: 'Speakers' },
   { num: '∞', label: 'Curiosity Required' },
 ];
