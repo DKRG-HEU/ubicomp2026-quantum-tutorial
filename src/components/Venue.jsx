@@ -69,7 +69,7 @@ export default function Venue() {
             {[
               { title: 'Pudong New Area',      detail: '2727 Riverside Ave, Lujiazui, Shanghai 200120, China' },
               { title: 'Metro Lines 2 & 14',   detail: 'Lujiazui Station (5 min walk)'                        },
-              { title: 'Morning — October 21, 2026',  detail: 'Room 5J · Conference Oct 13–15' },
+              { title: 'Morning — October 12, 2026',  detail: 'Room 5J · Conference Oct 13–15' },
             ].map(fact => (
               <div key={fact.title} className="flex items-start gap-3">
                 <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 bg-[#00d4ff]/10 border border-[#00d4ff]/20">
