@@ -34,9 +34,9 @@ export default function Hero() {
 {/* October 11-12, 2026. */}
         <div className="flex items-center justify-center gap-8 flex-wrap mb-12">
           {[
-            { icon: '📅', label: 'October 11-12 , 2026' },
-            { icon: '📍', label: 'Shanghai, China'   },
-            { icon: '⏱',  label: 'Half-Day Session  (approx. 3-4 hours)' },
+            { icon: '📅', label: 'Morning — October 12 , 2026' },
+            { icon: '📍', label: 'Room 5J , Shanghai, China'   },
+            { icon: '⏱',  label: '4 hours 15 minutes' },
           ].map(item => (
             <div key={item.label} className="flex items-center gap-2 font-mono text-[12px] text-muted">
               <span>{item.icon}</span>{item.label}

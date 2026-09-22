@@ -40,7 +40,7 @@ export default function Navbar() {
         </div>
 
         <span className="hidden md:inline-block font-mono text-[10px] bg-[#00d4ff]/10 border border-[#00d4ff]/30 text-[#00d4ff] px-3 py-1 rounded-full">
-          Shanghai · Oct 11-12 2026
+          Shanghai · Morning — October 12, 2026  📍 Room 5J
         </span>
 
         {/* Mobile burger */}
@@ -63,7 +63,7 @@ export default function Navbar() {
             ))}
           </div>
           <span className="inline-block mt-4 font-mono text-[10px] bg-[#00d4ff]/10 border border-[#00d4ff]/30 text-[#00d4ff] px-3 py-1 rounded-full">
-            Shanghai · Oct  11-12 2026
+            Shanghai · Morning — October 12, 2026  📍 Room 5J
           </span>
         </div>
       )}
