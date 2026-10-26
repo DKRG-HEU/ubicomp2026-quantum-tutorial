@@ -10,7 +10,7 @@ import CallForParticipation from '@/components/CallForParticipation';
 import Venue                from '@/components/Venue';
 import Contact              from '@/components/Contact';
 import Footer               from '@/components/Footer';
-
+import Tutorials            from '@/components/Tutorials';
 const Divider = () => <div className="divider-quantum w-full" />;
 
 export default function HomePage() {
@@ -38,9 +38,13 @@ export default function HomePage() {
         <Divider />
         <CallForParticipation />
         <Divider />
+        
         <Venue />
         <Divider />
+        <Tutorials />
+        <Divider />
         <Contact />
+        
       </main>
       <Footer />
     </>

@@ -9,6 +9,7 @@ const navLinks = [
   { href: '#organizers', label: 'Organizers'  },
   { href: '#cfp',        label: 'Participate' },
   { href: '#venue',      label: 'Venue'       },
+  { href: '#tutorials', label: 'Tutorials' },
   { href: '#contact',    label: 'Contact'     },
 ];
 
