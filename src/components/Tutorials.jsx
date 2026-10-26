@@ -3,7 +3,7 @@
 
 const BASE_PATH =
   process.env.NODE_ENV === 'production'
-    ? '/ioscforum_iosc-2026'
+    ? '/ubicomp2026-quantum-tutorial'
     : '';
 
 const tutorials = [
